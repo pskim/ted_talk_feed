@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>RSS FEEDME</title>
+  <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.5/css/materialize.min.css">
+  <link rel="stylesheet" href="../cssFolder/main.css">
+
+</head>
+<body>
+
+  <nav>
+    <div class="nav-wrapper red darken-4">
+      <a href="../index.html" class="brand-logo center">TED TALKS</a>
+      <ul id="nav-mobile" class="right hide-on-med-and-down">
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </div>
+  </nav>
+  <!-- end nav -->
+
+  <section class="container top-padding bottom-padding height-here">
+    <div class="row height-here">
+    <div class="col s12 height-here">
+      <div class="card height-here">
+        <div class="card-content height-here">
+          <p class="center">  Unrestricted flow of Ideas Worth Spreading <br>
+            Utilized Google Feed API with jQuery, Handlebars.js, and Materialize css. Content originally from another RSS of TedTalks <br>
+            created by Peter
+          </p>
+        </div>
+      </div>
+    </div>
+    </div>
+
+  </section>
+  <!-- end of about section -->
+
+  <footer class="page-footer red darken-4">
+    <div class="container">
+      <div class="row">
+
+        <div class="col l6 s12">
+          <h5 class="white-text">RSS Feed with GFeedAPI</h5>
+          <p class="grey-text text-lighten-4">Utilized Google Feed API with jQuery, Handlebars.js, and Materialize css. Content originally from another RSS of TedTalks. Link to <a class="red-text text-accent-1" href="http://feeds.feedburner.com/tedtalks_video">Original TedTalkRSS</a></p>
+        </div>
+        <!-- end description section -->
+
+        <div class="col l4 offset-l2 s12">
+          <h5 class="white-text">Links</h5>
+            <ul>
+              <li><a class="grey-text text-lighten-3" href="https://www.linkedin.com/in/pskim1">LinkedIn</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://twitter.com/peetear_kim">Twitter</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://github.com/pskim">Github</a></li>
+              <li><a class="grey-text text-lighten-3" href="https://google.com">Google</a></li>
+            </ul>
+        </div>
+        <!-- end links -->
+
+      </div>
+    </div>
+    <!-- end container -->
+
+      <div class="footer-copyright">
+        <div class="container">
+          Made By Peter Kim
+        </div>
+      </div>
+      <!-- end copy right -->
+
+    </footer>
+    <!-- end footer -->
+
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+<script src="https://www.google.com/jsapi"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/2.0.0/handlebars.js"></script>
+<script src="./src/HandleBars.js"></script>
+<script src="./src/GoogleFeedAPI.js"></script>
+<script src="./src/Handlers.js"></script>
+<script src="./src/App.js"></script>
+
+</html>
