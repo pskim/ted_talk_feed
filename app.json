@@ -1,0 +1,6 @@
+{
+  "name": "expressapp",
+  "description": "app using express",
+  "repository": "https://github.com/pskim/ted_talk_feed",
+  "keywords": ["node", "express", "static"]
+}
