@@ -2,6 +2,8 @@ var express = require('express');
 var app = express();
 var path = require('path');
 
+var port = process.env.PORT || 3000;
+
 app.get('/', function(req, res) {
 	res.sendFile(__dirname + '/index.html');
 })
@@ -26,4 +28,4 @@ app.get('/src/HandleBars.js', function(req, res) {
 	res.sendFile(__dirname + '/src/HandleBars.js');
 })
 
-app.listen(3000);
+app.listen(port);
